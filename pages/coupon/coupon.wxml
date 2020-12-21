@@ -1,2 +1,35 @@
 <!--pages/coupon/coupon.wxml-->
-<text>pages/coupon/coupon.wxml</text>
+<!-- 顶层轮播图 -->
+<view class="banner">
+  <view>
+    <text class="banner-text">店铺优惠活动</text><a class="lot">查看更多</a>
+  </view>
+  <swiper autoplay interval="3000" circular indicator-dots indicator-color="white">
+    <swiper-item wx:for="{{bannerList}}" wx:key="*this">
+      <image mode="widthFix" src="{{item}}"></image>
+    </swiper-item>
+  </swiper>
+</view>
+
+<!-- 商店 -->
+<view class="shop">
+  <view class="shop-text">
+    <text class="banner-text">商家店铺</text>
+  </view>
+  <!-- 商店图片 -->
+  <view class="store" wx:for="{{shopList}}">
+    <view class="store-img">
+      <image src="{{item.shopImg}}"></image>
+    </view>
+    <!-- 商店右边信息 -->
+    <view class="store-massage"><text class="banner-text">{{item.shopName}}</text>
+      <text class="hot-text">{{item.hotText}}</text>
+      <text class="address">地址：{{item.address}}</text>
+      <view class="shop-img">
+        <image src="{{item.foodImg0}}"></image>
+        <image src="{{item.foodImg1}}"></image>
+        <image src="{{item.foodImg2}}"></image>
+      </view>
+    </view>
+  </view>
+</view>

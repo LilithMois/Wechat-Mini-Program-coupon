@@ -1,28 +1,31 @@
 <!-- 顶部轮播图  3s换图-->
-<swiper autoplay interval="3000" circular indicator-dots indicator-color="white">
-  <swiper-item wx:for="{{bannerList}}" wx:key="*this">
-    <image mode="widthFix" src="{{item}}"></image>
-  </swiper-item>
-</swiper>
+<view class="all">
+  <swiper autoplay interval="3000" circular indicator-dots indicator-color="white">
+    <swiper-item wx:for="{{bannerList}}" wx:key="*this">
+      <image mode="widthFix" src="{{item}}"></image>
+    </swiper-item>
+  </swiper>
 
-<!-- 公益咨询推荐 -->
-<view class="recommend">
-  <view class="text-recommend"><text>公益咨询推荐</text><a>查看更多</a></view>
-  <scroll-view class="ad-recommends" scroll-x="true">
-    <view class="ad-recommend" wx:for="{{recommendList}}" wx:key="imgSrc">
-      <image src="{{item.imgSrc}}"></image>
-      <text>简介:{{item.text}}</text>
-    </view>
-  </scroll-view>
-</view>
+  <!-- 公益咨询推荐 -->
+  <view class="recommend">
+    <view class="text-recommend"><text>公益咨询推荐</text><a>查看更多</a></view>
+    <scroll-view class="ad-recommends" scroll-x="true">
+      <view class="ad-recommend" wx:for="{{recommendList}}" wx:key="imgSrc">
+        <image src="{{item.imgSrc}}"></image>
+        <text>简介:{{item.text}}</text>
+      </view>
+    </scroll-view>
+  </view>
 
-<!--  公益报名活动-->
-<view class="sign-up">
-  <view class="text-recommend"><text>公益活动报名</text></view>
-  <scroll-view scroll-y="{{true}}">
-    <view class="sign-all" wx:for="{{signList}}"wx:key="imgSrc">
-      <image class="bigImg" src="{{item.imgSrc}}" mode="aspectFill"></image><image class="smallImg" src="{{item.isImg}}"></image>
-      <view class="sign-down"><text>{{item.text}}</text><button>{{item.textButton}}</button></view>
-    </view>
-  </scroll-view>
+  <!--  公益报名活动-->
+  <view class="sign-up">
+    <view class="text-recommend"><text>公益活动报名</text></view>
+    <scroll-view scroll-y="{{true}}">
+      <view class="sign-all" wx:for="{{signList}}" wx:key="imgSrc">
+        <image class="bigImg" src="{{item.imgSrc}}" mode="aspectFill"></image>
+        <image class="smallImg" src="{{item.isImg}}"></image>
+        <view class="sign-down"><text>{{item.text}}</text><button>{{item.textButton}}</button></view>
+      </view>
+    </scroll-view>
+  </view>
 </view>

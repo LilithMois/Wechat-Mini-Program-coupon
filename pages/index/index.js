@@ -6,47 +6,47 @@ Page({
   data: {
     // 轮播图
     bannerList: [
-      "../../images/banner/0.png",
-      "../../images/banner/0.png",
-      "../../images/banner/0.png"
+      "../../images/index/banner/0.png",
+      "../../images/index/banner/0.png",
+      "../../images/index/banner/0.png"
     ]
     ,
     //公益咨询图片和简介
     recommendList: [{
       text: "让你读书变成一种公益",
-      imgSrc: "../../images/recommend/0.png"
+      imgSrc: "../../images/index/recommend/0.png"
     },{
       text: "让你读书变成一种公益",
-      imgSrc: "../../images/recommend/0.png"
+      imgSrc: "../../images/index/recommend/0.png"
     },{
       text: "让你读书变成一种公益",
-      imgSrc: "../../images/recommend/0.png"
+      imgSrc: "../../images/index/recommend/0.png"
     },{
       text: "让你读书变成一种公益",
-      imgSrc: "../../images/recommend/0.png"
+      imgSrc: "../../images/index/recommend/0.png"
     },{
       text: "让你读书变成一种公益",
-      imgSrc: "../../images/recommend/0.png"
+      imgSrc: "../../images/index/recommend/0.png"
     }],
     //公益报名列表
     signList:[{
-      imgSrc:"../../images/sign/0.png",
-      isImg:"../../images/sign/success.png",
+      imgSrc:"../../images/index/sign/0.png",
+      isImg:"../../images/index/sign/success.png",
       text:"腾讯公益为众多公益机构创造了筹款基地，作为公益人，让爱洒满大地，人间",
       textButton:"活动进行"
     },{
-      imgSrc:"../../images/sign/0.png",
-      isImg:"../../images/sign/success.png",
+      imgSrc:"../../images/index/sign/0.png",
+      isImg:"../../images/index/sign/success.png",
       text:"腾讯公益为众多公益机构创造了筹款基地，作为公益人，让爱洒满大地，人间",
       textButton:"活动进行"
     },{
-      imgSrc:"../../images/sign/0.png",
-      isImg:"../../images/sign/success.png",
+      imgSrc:"../../images/index/sign/0.png",
+      isImg:"../../images/index/sign/success.png",
       text:"腾讯公益为众多公益机构创造了筹款基地，作为公益人，让爱洒满大地，人间",
       textButton:"活动进行"
     },{
-      imgSrc:"../../images/sign/0.png",
-      isImg:"../../images/sign/success.png",
+      imgSrc:"../../images/index/sign/0.png",
+      isImg:"../../images/index/sign/success.png",
       text:"腾讯公益为众多公益机构创造了筹款基地，作为公益人，让爱洒满大地，人间",
       textButton:"活动进行"
     }]
