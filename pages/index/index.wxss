@@ -1,21 +1,121 @@
 /**index.wxss**/
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+/* 轮播图 */
+swiper {
+  width: clac(100%-12rpx);
+  height: 260rpx;
+  padding: 7rpx 6rpx;
 }
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+image {
+  width: 100%;
 }
 
-.userinfo-nickname {
-  color: #aaa;
+/* 推荐列表 */
+.recommend {
+  padding: 24rpx 12rpx 0rpx 12rpx;
 }
 
-.usermotto {
-  margin-top: 200px;
+.text-recommend {
+  padding: 12rpx;
+  font-family: "Times New Roman";
+  font-size: 35rpx;
+  font-weight: 700;
+}
+
+.recommend .text-recommend a {
+  line-height: 35rpx;
+  height: 30rpx;
+  float: right;
+  font-size: 20rpx;
+  font-weight: normal;
+  border: 1rpx solid #778899;
+  border-radius: 100rpx;
+  letter-spacing: 4rpx;
+}
+
+.ad-recommends {
+  white-space: nowrap;
+  height: 300rpx;
+}
+
+.ad-recommends .ad-recommend {
+  width: 212rpx;
+  height: 260rpx;
+  padding: 20rpx 10rpx;
+  display: inline-block;
+}
+
+.ad-recommends .ad-recommend image {
+  width: 212rpx;
+  height: 214rpx;
+  float: left;
+}
+
+.ad-recommends .ad-recommend text {
+  font-size: 20rpx;
+  font-weight: normal;
+  float: left;
+  width: 100%;
+  word-wrap: break-word;
+  word-break: break-all;
+  white-space: pre-line;
+}
+
+/* 报名列表 */
+.sign-up {
+  width: clac(100%-24rpx);
+  padding: 12rpx;
+  overflow: hidden;
+}
+
+.sign-up scroll-view {
+  height: 800rpx;
+}
+
+.sign-up .sign-all {
+  position: relative;
+  height: 300rpx;
+}
+
+.sign-up .sign-all .bigImg {
+  position: relative;
+  height: 220rpx;
+}
+
+.sign-up .sign-all .sign-down {
+  position: relative;
+  height: 80rpx;
+  font-size: 25rpx;
+  font-weight: normal;
+}
+
+.sign-up .sign-all text {
+  float: left;
+  width: 80%;
+  word-wrap: break-word;
+  word-break: break-all;
+  white-space: pre-line;
+}
+
+.sign-up .sign-all button {
+  margin-top: 15rpx;
+  margin-left: 0rpx;
+  padding: 10rpx 5rpx;
+  float: right;
+  width: 130rpx;
+  height: 50rpx;
+  font-size: 20rpx;
+  text-align: center;
+  font-weight: normal;
+  background-color: greenyellow;
+  border-radius: 100rpx;
+}
+
+.sign-up .sign-all .smallImg {
+  z-index: 1;
+  position: absolute;
+  top: 5%;
+  left: 80%;
+  width: 150rpx;
+  height: 40rpx;
 }
