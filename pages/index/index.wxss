@@ -101,7 +101,7 @@ image {
 }
 
 .sign-up .sign-all button {
-  margin-top: 15rpx;
+  margin-top: 12rpx;
   margin-left: 0rpx;
   padding: 10rpx 5rpx;
   float: right;

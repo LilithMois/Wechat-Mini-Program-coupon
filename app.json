@@ -1,8 +1,10 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/signup/signup",
+    "pages/recommend/recommend",
     "pages/coupon/coupon",
-    "pages/mine/mine"
+    "pages/mine/mine"  
   ],
   "window": {
     "backgroundTextStyle": "dark",

@@ -8,7 +8,7 @@
 
   <!-- 公益咨询推荐 -->
   <view class="recommend">
-    <view class="text-recommend"><text>公益咨询推荐</text><a>查看更多</a></view>
+    <view class="text-recommend"><text>公益咨询推荐</text><a bindtap="recommend">查看更多</a></view>
     <scroll-view class="ad-recommends" scroll-x="true">
       <view class="ad-recommend" wx:for="{{recommendList}}" wx:key="imgSrc">
         <image src="{{item.imgSrc}}"></image>
@@ -24,7 +24,7 @@
       <view class="sign-all" wx:for="{{signList}}" wx:key="imgSrc">
         <image class="bigImg" src="{{item.imgSrc}}" mode="aspectFill"></image>
         <image class="smallImg" src="{{item.isImg}}"></image>
-        <view class="sign-down"><text>{{item.text}}</text><button>{{item.textButton}}</button></view>
+        <view class="sign-down"><text>{{item.text}}</text><button bindtap="signup">{{item.textButton}}</button></view>
       </view>
     </scroll-view>
   </view>

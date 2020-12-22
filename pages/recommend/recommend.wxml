@@ -1,0 +1,16 @@
+<!--pages/recommend/recommend.wxml-->
+<!-- 主页的子页面，用于跳转到公益咨询推荐 -->
+<view class="recommend">
+  <view class="recommend-a"><a class="float-a">最近</a></view>
+  <view class="ad-recommend" wx:for="{{recommendList}}" wx:key="imgSrc">
+        <image src="{{item.imgSrc}}"></image>
+        <text>简介:{{item.text}}</text>
+  </view>
+</view>
+<view class="recommend">
+  <view class="recommend-a"><a class="float-a">更早</a></view>
+  <view class="ad-recommend" wx:for="{{recommendLast}}" wx:key="imgSrc">
+        <image src="{{item.imgSrc}}"></image>
+        <text>简介:{{item.text}}</text>
+  </view>
+</view>

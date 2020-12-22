@@ -15,43 +15,53 @@ Page({
     recommendList: [{
       text: "让你读书变成一种公益",
       imgSrc: "../../images/index/recommend/0.png"
-    },{
+    }, {
       text: "让你读书变成一种公益",
       imgSrc: "../../images/index/recommend/0.png"
-    },{
+    }, {
       text: "让你读书变成一种公益",
       imgSrc: "../../images/index/recommend/0.png"
-    },{
+    }, {
       text: "让你读书变成一种公益",
       imgSrc: "../../images/index/recommend/0.png"
-    },{
+    }, {
       text: "让你读书变成一种公益",
       imgSrc: "../../images/index/recommend/0.png"
     }],
     //公益报名列表
-    signList:[{
-      imgSrc:"../../images/index/sign/0.png",
-      isImg:"../../images/index/sign/success.png",
-      text:"腾讯公益为众多公益机构创造了筹款基地，作为公益人，让爱洒满大地，人间",
-      textButton:"活动进行"
-    },{
-      imgSrc:"../../images/index/sign/0.png",
-      isImg:"../../images/index/sign/success.png",
-      text:"腾讯公益为众多公益机构创造了筹款基地，作为公益人，让爱洒满大地，人间",
-      textButton:"活动进行"
-    },{
-      imgSrc:"../../images/index/sign/0.png",
-      isImg:"../../images/index/sign/success.png",
-      text:"腾讯公益为众多公益机构创造了筹款基地，作为公益人，让爱洒满大地，人间",
-      textButton:"活动进行"
-    },{
-      imgSrc:"../../images/index/sign/0.png",
-      isImg:"../../images/index/sign/success.png",
-      text:"腾讯公益为众多公益机构创造了筹款基地，作为公益人，让爱洒满大地，人间",
-      textButton:"活动进行"
+    signList: [{
+      imgSrc: "../../images/index/sign/0.png",
+      isImg: "../../images/index/sign/success.png",
+      text: "腾讯公益为众多公益机构创造了筹款基地，作为公益人，让爱洒满大地，人间",
+      textButton: "活动进行"
+    }, {
+      imgSrc: "../../images/index/sign/0.png",
+      isImg: "../../images/index/sign/success.png",
+      text: "腾讯公益为众多公益机构创造了筹款基地，作为公益人，让爱洒满大地，人间",
+      textButton: "活动进行"
+    }, {
+      imgSrc: "../../images/index/sign/0.png",
+      isImg: "../../images/index/sign/success.png",
+      text: "腾讯公益为众多公益机构创造了筹款基地，作为公益人，让爱洒满大地，人间",
+      textButton: "活动进行"
+    }, {
+      imgSrc: "../../images/index/sign/0.png",
+      isImg: "../../images/index/sign/success.png",
+      text: "腾讯公益为众多公益机构创造了筹款基地，作为公益人，让爱洒满大地，人间",
+      textButton: "活动进行"
     }]
   },
-
+  // 跳转页面函数 
+  recommend: function () {
+    wx.navigateTo({
+      url: '../recommend/recommend',
+    })
+  },
+  signup:function(){
+    wx.navigateTo({
+      url: '../signup/signup',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

@@ -1,0 +1,23 @@
+/* pages/recommend/recommend.wxss */
+.float-a{
+  float: right;
+}
+.recommend{
+  padding:24rpx;
+  height: 600rpx;
+}
+.recommend-a{
+  height: 40rpx;
+  padding-right: 30rpx;
+}
+.ad-recommend{
+  width: 212rpx;
+  height: 260rpx;
+  padding: 35rpx 8rpx 0rpx 8rpx;
+  font-size: 25rpx;
+  float: left;
+}
+.ad-recommend image {
+  width: 212rpx;
+  height: 214rpx;
+}

@@ -1,0 +1,62 @@
+/* pages/signup/signup.wxss */
+.sign-big {
+  padding: 24rpx;
+  height: 320rpx;
+}
+
+.sign-small {
+  padding: 24rpx;
+  height: 150rpx;
+}
+
+.sign-img {
+  width: 100%;
+  height: 250rpx;
+}
+
+.sign-img image {
+  width: 100%;
+  height: 250rpx;
+}
+
+.sign-text {
+  width: 75%;
+  font-size: 25rpx;
+  float: left;
+}
+.energy{
+  width: 140rpx;
+  float: right;
+  font-size: 25rpx;
+  text-align: center;
+  margin-top: 15rpx;
+  background-color: rgb(116, 202, 45);
+  border-radius: 100rpx;
+}
+
+.top .topic{
+  font-size: 36rpx;
+  font-weight: 600;
+}
+.time0{
+  margin-left: 5rpx;
+  padding:5rpx;
+  color:white;
+  background-color: rgb(241, 121, 121);
+  font-size: 22rpx;
+  border-radius: 100rpx;
+}
+.time1{
+  margin-left: 15rpx;
+  font-size: 22rpx;
+  color:red;
+}
+.massage{
+  font-size: 25rpx;
+}
+button{
+  color: white;
+  margin-top: 20rpx;
+  border-radius: 100rpx;
+  background: linear-gradient(to right, #f7b733, #fc4a1a);
+}
